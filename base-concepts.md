@@ -17,3 +17,14 @@ docker --version
 ```
 docker image inspect --format='{{.RepoTags}} {{.Id}} {{.Parent}}' $(docker image ls -q --filter since=b707620d204c)
 ```
+
++ 镜像
++ 层
++ 容器
++ 仓库
+
+创建镜像的方式
+1. 从运行容器的某个时刻通过`docker commit`创建
+2. 通过Dockerfile
+3. 通过Dockerfile及配置管理工具
+4. 导入所需文件从头创建
