@@ -28,3 +28,4 @@ docker image inspect --format='{{.RepoTags}} {{.Id}} {{.Parent}}' $(docker image
 2. 通过Dockerfile
 3. 通过Dockerfile及配置管理工具
 4. 导入所需文件从头创建
+
